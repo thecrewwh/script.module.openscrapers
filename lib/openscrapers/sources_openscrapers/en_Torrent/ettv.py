@@ -1,16 +1,9 @@
 # -*- coding: utf-8 -*-
 # created by Venom for Openscrapers (updated url 4-20-2020)
+#5/11
 
-#  ..#######.########.#######.##....#..######..######.########....###...########.#######.########..######.
-#  .##.....#.##.....#.##......###...#.##....#.##....#.##.....#...##.##..##.....#.##......##.....#.##....##
-#  .##.....#.##.....#.##......####..#.##......##......##.....#..##...##.##.....#.##......##.....#.##......
-#  .##.....#.########.######..##.##.#..######.##......########.##.....#.########.######..########..######.
-#  .##.....#.##.......##......##..###.......#.##......##...##..########.##.......##......##...##........##
-#  .##.....#.##.......##......##...##.##....#.##....#.##....##.##.....#.##.......##......##....##.##....##
-#  ..#######.##.......#######.##....#..######..######.##.....#.##.....#.##.......#######.##.....#..######.
 
 '''
-    OpenScrapers Project
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -40,7 +33,7 @@ class source:
 		self.priority = 1
 		self.language = ['en']
 		self.domain = ['ettvdl.com', 'ettv.to']
-		self.base_link = 'https://ettvdl.com'
+		self.base_link = 'https://www.ettvdl.com'
 		self.search_link = '/torrents-search.php?search=%s'
 		self.min_seeders = 1
 
